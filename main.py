@@ -61,21 +61,6 @@ class Cannonball:
 
         return xs, ys
 
-
-class Crazyball(Cannonball):
-    def __init__(self, x, v):
-        super().__init__(x)
-        self._vx = v
-
-    def move(self, sec, grav=9.81):
-        super().move(sec, grav)
-        self.rand_q = random.randrange(0, 10)
-        if self.getX() < 400:
-            self._vx = self._vx + self.rand_q
-            if self.getY() > 100:
-                self._vy = self._vy - self.rand_q
-
-
 def run_app():
     st.title("Cannonball Trajectory")
 
