@@ -1,6 +1,6 @@
 # L09HW_Cannonball
 # Cannonball Trajectory Simulator
-
+# sample note
 A Streamlit web app that simulates and visualizes cannonball trajectories using projectile motion physics.
 
 ## Features
